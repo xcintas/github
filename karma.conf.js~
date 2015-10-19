@@ -42,7 +42,6 @@ module.exports = function(config) {
     reporters: ['p', 'junit'],
 
     junitReporter: {
-	browserName: '',
 	outputDir: '',
 	outputFile: 'test-results.xml'
     },
