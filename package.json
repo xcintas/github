@@ -5,6 +5,7 @@
   "devDependencies": {
     "karma": "*",
     "karma-jasmine": "*",
-    "karma-chrome-launcher": "*"
+    "karma-chrome-launcher": "*",
+    "phantomjs": "*"
   }
 }
