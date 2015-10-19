@@ -6,6 +6,7 @@
     "karma": "*",
     "karma-jasmine": "*",
     "karma-chrome-launcher": "*",
-    "phantomjs": "*"
+    "phantomjs": "*",
+    "karma-junit-reporter": "*"
   }
 }
