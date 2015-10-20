@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "Github short description",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/xcintas/github.git"
+  },
   "devDependencies": {
     "karma": "^0.13.11",
     "karma-jasmine": "*",
