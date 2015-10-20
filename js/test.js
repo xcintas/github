@@ -4,15 +4,15 @@ describe("A suite", function() {
   var service = Service();
 
   describe('plus', function(){
-    var sum = service.sum(1, 5);
+    var sum1 = service.sum(1, 5);
 
     it("it should add when a < 5", function() {
-      expect(sum).toEqual(6);
+      expect(sum1).toEqual(6);
     });
 
-    sum = service.sum(5, 5);
+    var sum2 = service.sum(10, 5);
     it("it should add when a >= 5", function() {
-      expect(sum).toEqual(15);
+      expect(sum2).toEqual(25);
     });
   });
 

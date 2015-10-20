@@ -7,11 +7,13 @@ function Service() {
     return service;
 
     function sum(a, b){
-        if(a < 5)
-            return a+b;
+        if(5 > a) {
+            return a + b;
+        }
 
-        if(a >= 5)
-            return a*2+b;
+        if(a >= 5) {
+            return a * 2 + b;
+        }
     }
 
     function minus(a, b){
