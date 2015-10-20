@@ -1,6 +1,7 @@
 {
   "name": "xcintas-github",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "Github short description",
   "devDependencies": {
     "karma": "^0.13.11",
