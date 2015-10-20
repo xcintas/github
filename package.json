@@ -1,17 +1,11 @@
 {
   "name": "xcintas-github",
   "version": "1.0.0",
-  "license": "MIT",
-  "description": "Github short description",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xcintas/github.git"
-  },
   "devDependencies": {
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.11",
+    "karma-chrome-launcher": "^0.2.1",
     "karma-jasmine": "^0.3.6",
-    "karma-junit-reporter": "^0.3.7",
-    "karma-chrome-launcher": "^0.2.1"
+    "karma-junit-reporter": "^0.3.8"
   }
 }
