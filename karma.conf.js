@@ -27,19 +27,22 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+      'js/service.js': 'coverage'
     },
 
 
     plugins: [
         'karma-jasmine',
         'karma-chrome-launcher',
+        'karma-phantomjs-launcher',
+        'karma-coverage',
         'karma-junit-reporter'
     ],
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['dots', 'junit'],
+    reporters: ['dots', 'coverage', 'junit'],
 
     junitReporter: {
 	  browserName: '',
@@ -66,6 +69,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
+    //browsers: ['Chrome', 'PhantomJS'],
     browsers: ['Chrome'],
 
     // Continuous Integration mode
